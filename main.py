@@ -36,9 +36,18 @@ class MainWindow(QMainWindow):
 
         # BTN SETTINGS
         self.ui.settings_button.clicked.connect(self.show_page_3)
+
+        #BTG CHANGE TEXT
+        self.ui.ui_pages.btn_change_text.clicked.connect(self.change_text)
         
         # EXIBIR APLICAÇÃO
         self.show()
+
+    def change_text(self):
+        text = self.ui.ui_pages.lineEdit.text()
+        new_text = "Olá, " + text
+        self.ui.ui_pages.label.setText(new_text)
+        self.ui.ui_pages.lineEdit.setText("")
 
     def reset_selection(self):
         for btn in self.ui.left_menu.findChildren(QPushButton):
