@@ -28,7 +28,7 @@ class PyPushButton(QPushButton):
     ):
         super().__init__()
 
-        # SET DEFAILT PARAMETERS
+        # SET DEFAULT PARAMETERS
         self.setText(text)
         self.setMaximumHeight(height)
         self.setMinimumHeight(height)

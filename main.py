@@ -40,7 +40,7 @@ class MainWindow(QMainWindow):
         #BTG CHANGE TEXT
         self.ui.ui_pages.btn_change_text.clicked.connect(self.change_text)
         
-        # EXIBIR APLICAÇÃO
+        # SHOW APPLICATION
         self.show()
 
     def change_text(self):
