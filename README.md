@@ -1,1 +1,1 @@
-![alt text](layout.png)
+<img src="layout.png" alt="GitHub"/>
