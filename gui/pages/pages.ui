@@ -96,7 +96,7 @@ color: rgb(255, 255, 255);</string>
           </widget>
          </item>
          <item row="0" column="1">
-          <widget class="QPushButton" name="pushButton">
+          <widget class="QPushButton" name="btn_change_text">
            <property name="minimumSize">
             <size>
              <width>120</width>
@@ -111,7 +111,7 @@ color: rgb(255, 255, 255);</string>
            </property>
            <property name="styleSheet">
             <string notr="true">QPushButton {
-	background-color: #55aaff;
+	background-color: #4385c8;
 	border: 2px solid #c3ccdf;
 	color: rgb(255, 255, 255);
 	border-radius: 10px;
